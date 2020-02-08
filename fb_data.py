@@ -22,7 +22,7 @@ from time import sleep
 
 
 def main():
-    token = "EAACOfoHQz3sBAOJFZC3M1ZCGw4n0DfbEEWwd9t0LlL35NKhmRnABM5ibZAygjRx6lXF5vZBLtEgZB8BEQeyhb4TaqTLnjr3AKMO8xOiUJcLuNXkZAFt2dXru8FjM4lFgSxnm4JHSwGsgZA2hzZByFAShyWuQZAURgirpKcHU6BZBo8L85fnEmxH1a4QBEPDQ4I12nfugdvNsCZADAKQVyrHdGw5snuqCSJwBuFKvtEudxUdoQZDZD"
+    token = ""#your_token
     node = "397007524493560" #group_id 
 
     graph = facebook.GraphAPI(token)
@@ -36,11 +36,11 @@ def main():
     # print(json.dumps(videos['videos']['data'],indent=4))
 
     #code for structured csv
-    email = "jeffysam02@gmail.com"
-    passwd = "myfriendisgod"
+    email = ""#facebook_email_id
+    passwd = ""#facebook password
 
     d = {}
-    url = "https://mobile.facebook.com/groups/397007524493560?refid=27"
+    url = f"https://mobile.facebook.com/groups/{group_id}?refid=27"
     option = webdriver.ChromeOptions()
     option.add_argument("-incognito")
     option.add_argument('--headless')
