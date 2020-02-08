@@ -10,13 +10,12 @@ from time import sleep
 
 
 
-email = "jeffysam02@gmail.com"
-passwd = "myfriendisgod"
+email = ""#facebook_email_id
+passwd = ""#facebook password
 
 
-# url = "https://www.facebook.com/groups/870250880025270/"
 
-url = "https://mobile.facebook.com/groups/870250880025270?refid=27"
+url = f"https://mobile.facebook.com/groups/{group_id}?refid=27"
 
 option = webdriver.ChromeOptions()
 option.add_argument("-incognito")
