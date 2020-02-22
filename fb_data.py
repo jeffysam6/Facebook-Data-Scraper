@@ -23,7 +23,7 @@ from time import sleep
 
 def main():
     token = ""#your_token
-    node = "397007524493560" #group_id 
+    node = "" #group_id 
 
     graph = facebook.GraphAPI(token)
 
